@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolarSphere - Cosmic & Earth Explorer</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #050505;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            overflow-x: hidden;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(90deg, #111, #222);
+            border-bottom: 1px solid #333;
+        }
+        h1 { margin: 0; color: #00ffcc; letter-spacing: 2px; }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px;
+        }
+        .controls {
+            margin-bottom: 20px;
+        }
+        button {
+            background: #00ffcc;
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: #ff007f;
+            color: #fff;
+        }
+        .display-box {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid #444;
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 600px;
+            text-align: center;
+            min-height: 150px;
+            box-shadow: 0 0 20px rgba(0, 255, 204, 0.2);
+        }
+        .planet-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-top: 15px;
+            box-shadow: 0 0 15px #00ffcc;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🌌 SolarSphere / Source Urja</h1>
+        <p>Production-Ready DevOps Cloud Explorer</p>
+    </header>
+
+    <div class="container">
+        <div class="controls">
+            <p>Select view mode or press buttons:</p>
+            <button onclick="showView(1)">1. Solar System Overview</button>
+            <button onclick="showView(3)">3. Earth (Prithvi) Details</button>
+        </div>
+
+        <div class="display-box" id="content-box">
+            <h2>Welcome!</h2>
+            <p>Click button 1 for Solar System or button 3 for Earth's cosmic details.</p>
+        </div>
+    </div>
+
+    <script>
+        function showView(id) {
+            const box = document.getElementById('content-box');
+            if (id === 1) {
+                box.innerHTML = `
+                    <h2>☀️ Solar System Overview</h2>
+                    <p>Our planetary system orbits the Sun, consisting of eight planets, dwarf planets, and numerous moons.</p>
+                    <div style="font-size: 40px;">🪐 🌍 🌕 ☀️</div>
+                `;
+            } else if (id === 3) {
+                box.innerHTML = `
+                    <h2>🌍 Earth (Prithvi) - Our Home</h2>
+                    <p><b>Type:</b> Terrestrial Planet<br><b>Atmosphere:</b> Nitrogen (78%), Oxygen (21%)<br><b>Distance from Sun:</b> 149.6 million km</p>
+                    <img src="https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=300" class="planet-img" alt="Earth">
+                `;
+            }
+        }
+    </script>
+</body>
+</html>
