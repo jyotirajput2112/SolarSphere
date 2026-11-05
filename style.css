@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    background-color: #05050a;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(90deg, #0d0d1a, #1a1a3a);
+    border-bottom: 1px solid #333;
+}
+h1 { margin: 0; color: #00ffcc; letter-spacing: 2px; }
+.badge {
+    background: #ff007f;
+    color: #fff;
+    padding: 4px 10px;
+    font-size: 12px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+.search-box {
+    margin-bottom: 25px;
+    display: flex;
+    gap: 12px;
+}
+input[type="number"] {
+    padding: 12px;
+    width: 220px;
+    border-radius: 8px;
+    border: 1px solid #00ffcc;
+    background: #111;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+button {
+    background: #00ffcc;
+    color: #000;
+    border: none;
+    padding: 12px 24px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+button:hover {
+    background: #ff007f;
+    color: #fff;
+}
+.display-box {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid #444;
+    padding: 30px;
+    border-radius: 12px;
+    width: 85%;
+    max-width: 700px;
+    text-align: left;
+    box-shadow: 0 0 25px rgba(0, 255, 204, 0.15);
+}
+.display-box h2 {
+    text-align: center;
+    color: #00ffcc;
+}
+.emoji-icon {
+    font-size: 50px;
+    text-align: center;
+    margin: 10px 0;
+}
+.tech-stack {
+    margin-top: 15px;
+    background: rgba(0, 255, 204, 0.08);
+    padding: 12px;
+    border-radius: 6px;
+    border-left: 4px solid #00ffcc;
+    font-size: 14px;
+}
+.guide-box {
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: 1px dashed #555;
+    text-align: left;
+}
+.guide-box ul {
+    margin: 0;
+    padding-left: 20px;
+    color: #bbb;
+    font-size: 14px;
+    line-height: 1.6;
+}
