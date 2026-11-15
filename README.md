@@ -48,5 +48,4 @@ cd SolarSphere
 docker build -t solarsphere .
 docker run -p 8080:80 solarsphere
 
-3 
 
