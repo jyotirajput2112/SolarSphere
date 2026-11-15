@@ -41,7 +41,6 @@ graph TD
     style C fill:#bbf,stroke:#333,stroke-width:2px
     style E fill:#bfb,stroke:#333,stroke-width:2px
 
-
 How to Run Locally
 1 Clone the Repository:
 git clone [https://github.com/jyotirajput2112/SolarSphere.git](https://github.com/jyotirajput2112/SolarSphere.git)
