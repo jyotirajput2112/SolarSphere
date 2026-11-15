@@ -28,8 +28,6 @@ SolarSphere is an interactive platform where users can input numbers (1 to 7) to
 ---
 
 ## 🏗️ Architecture & Deployment Flow
-
-```mermaid
 graph TD
     A[Local Development <br> VS Code] -->|Code Push| B(GitHub Repository)
     B -->|Trigger Workflow| C[GitHub Actions <br> CI/CD Pipeline]
