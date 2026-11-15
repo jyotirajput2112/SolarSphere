@@ -1,5 +1,9 @@
 <img width="2730" height="1536" alt="Gemini_Generated_Image_chuxc5chuxc5chux" src="https://github.com/user-attachments/assets/a1b32627-9899-45fc-a4c3-518498217b0e" />
 <img width="1672" height="941" alt="हिंदी सौरमंडल अंतरिक्ष पोस्टर" src="https://github.com/user-attachments/assets/d651e7f2-cf2f-40f9-b44d-f1c4e76857b2" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bd8bc479-0019-47c2-8534-b27b49d170f5" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/42b3a8f0-74f6-483c-980a-ef9c08ec01bf" />
+
+
 
 # 🌌 SolarSphere / Source Urja
 
@@ -36,10 +40,7 @@ graph TD
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style C fill:#bbf,stroke:#333,stroke-width:2px
     style E fill:#bfb,stroke:#333,stroke-width:2px
-📸 Application Preview
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bd8bc479-0019-47c2-8534-b27b49d170f5" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/42b3a8f0-74f6-483c-980a-ef9c08ec01bf" />
 
 How to Run Locally
 1 Clone the Repository:
